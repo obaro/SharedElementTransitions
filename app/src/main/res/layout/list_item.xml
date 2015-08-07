@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/fragment_list_item_height"
+        android:layout_height="@dimen/fragment_list_item_height"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:src="@drawable/aa_logo_blue"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:text="temp"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
